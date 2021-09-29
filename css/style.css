@@ -1,3 +1,4 @@
+/* commons */
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +9,20 @@ body {
     background-color: rgb(247, 243, 243);
 }
 
+
+/* header */
 header {
     background-color: #fff;
     height: 70px;
+    line-height: 70px;
+}
+
+#logo {
+    vertical-align: middle;
 }
 
 #logo-text {
     font-size: 38px;
     font-weight: 900;
+    vertical-align: middle;
 }
