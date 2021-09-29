@@ -7,6 +7,7 @@
 
 body {
     background-color: rgb(247, 243, 243);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
@@ -41,6 +42,8 @@ header {
 }
 
 /* main */
+
+/* button */
 .btn {
     padding: 5px 10px;
     border-radius: 5px;
@@ -56,6 +59,9 @@ header {
     background-color: #fff;
     border: 1px solid lightgrey;
 }
+
+/* end button */
+
 
 .top {
     border-bottom: 1px solid rgb(247, 243, 243);
@@ -96,5 +102,20 @@ header {
     border: 1px solid red;
     color: red;
 }
+
+/* tag */
+
+.tag {
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+}
+
+.tag-type-1 {
+    background-color: #09a9ed;
+}
+
+
 
 
