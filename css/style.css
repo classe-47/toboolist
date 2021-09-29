@@ -9,12 +9,23 @@ body {
     background-color: rgb(247, 243, 243);
 }
 
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius:5px;
+
+    /* togliere altezza */
+    height: 300px;
+}
+
 
 /* header */
 header {
     background-color: #fff;
     height: 70px;
     line-height: 70px;
+    margin-bottom: 40px;
 }
 
 #logo {
@@ -26,3 +37,27 @@ header {
     font-weight: 900;
     vertical-align: middle;
 }
+
+/* main */
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.blu {
+    background-color: rgb(36, 150, 243);
+    color: white;
+}
+
+.white {
+    background-color: #fff;
+    border: 1px solid lightgrey;
+}
+
+.top {
+    border-bottom: 1px solid rgb(247, 243, 243);
+    line-height: 50px;
+    padding-left: 50px;
+}
+
