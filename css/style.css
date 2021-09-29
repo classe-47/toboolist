@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: rgb(247, 243, 243);
+}
+
+header {
+    background-color: #fff;
+    height: 70px;
+}
+
+#logo-text {
+    font-size: 38px;
+    font-weight: 900;
+}
