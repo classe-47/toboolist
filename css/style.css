@@ -9,14 +9,16 @@ body {
     background-color: rgb(247, 243, 243);
 }
 
+li {
+    list-style: none;
+    padding: 10px 0;
+}
+
 .container {
     width: 70%;
     margin: 0 auto;
     background-color: #fff;
     border-radius:5px;
-
-    /* togliere altezza */
-    height: 300px;
 }
 
 
@@ -60,4 +62,39 @@ header {
     line-height: 50px;
     padding-left: 50px;
 }
+
+.content{
+    padding: 20px 50px;
+}
+
+.triangolo::before {
+    content: '\25BE';
+}
+
+.circle {
+    display: inline-block;
+}
+
+.circle::before {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.circle.checked::before {
+    content: '\2713';
+    border: 1px solid #2cc6ab;
+    color: #2cc6ab;
+}
+
+.circle.deleted::before {
+    content: '\2715';
+    border: 1px solid red;
+    color: red;
+}
+
 
